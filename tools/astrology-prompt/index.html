@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>命盤整理小幫手｜ToolFrameLab</title>
+  <meta name="description" content="命盤整理小幫手是一個 iOS 捷徑，用來把使用者自己取得的排盤結果整理成適合提供給 AI 使用的 prompt。" />
+  <link rel="icon" href="../../assets/favicon/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="../../assets/favicon/favicon-32.png">
+  <link rel="apple-touch-icon" href="../../assets/favicon/apple-touch-icon.png">
+  <meta property="og:title" content="命盤整理小幫手｜ToolFrameLab">
+  <meta property="og:description" content="把命盤資料整理成適合提供給 AI 使用的 prompt。">
+  <meta property="og:image" content="../../assets/og/og-image.png">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="../../assets/css/base.css">
+  <link rel="stylesheet" href="../../assets/css/tool.css">
+</head>
+<body class="tool-page">
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="../../index.html" class="brand"><img src="../../assets/logo/toolframelab_logo.png" alt="ToolFrameLab logo"></a>
+      <nav class="nav-links">
+        <a href="../../index.html">Home</a>
+        <a href="#sources">Sources</a>
+        <a href="#guide">Guide</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="tool-hero">
+      <div class="container">
+        <div class="eyebrow"><span class="dot"></span> iOS Shortcut · AI Prompt Tool</div>
+        <h1>命盤整理小幫手</h1>
+        <p class="lead">
+        把你自己取得的排盤結果整理成適合貼給 AI 使用的 Prompt。
+        支援西洋占星、八字、人類圖與紫微斗數；資料主要在你的裝置上處理，整理後也可以自行清除。
+      </p>
+      <div class="cta">
+          <a class="btn primary" href="https://www.icloud.com/shortcuts/ac23c49d26be473d8c958006dd2ef4da" target="_blank" rel="noopener noreferrer">下載捷徑</a>
+          <a class="btn secondary" href="#guide">查看使用方式</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="layout">
+        <aside class="toc">
+        <div class="toc-title">On this page</div>
+        <a href="#positioning">工具介紹</a>
+        <a href="#sources">支援來源</a>
+        <a href="#features">功能概覽</a>
+        <a href="#guide">使用流程</a>
+        <a href="#ai">貼到 AI</a>
+        <a href="#privacy">隱私說明</a>
+        <a href="#faq">FAQ</a>
+      </aside>
+
+        <div class="content">
+        <section id="positioning" class="card">
+          <div class="kicker">01 / intro</div>
+          <h2>整理命盤資料，讓 AI 更容易閱讀</h2>
+          <p>
+            命盤整理小幫手的重點不是替使用者解讀或下結論，而是協助整理使用者自己取得的排盤結果，
+            讓資料更容易貼給 AI 閱讀、提問與延伸分析。
+          </p>
+          <p>
+            有些人會把命盤分析當成自我理解的參考；也有人只是需要一個乾淨的資料整理工具。
+            你可以依照自己的需求使用，不需要把任何分析結果當成絕對答案。
+          </p>
+          <div class="notice">
+            AI 與命理分析都可能有誤差。若涉及重大財務、感情、職涯、健康或法律決策，
+            建議仍回到現實資訊、個人判斷與必要的專業建議。
+          </div>
+        </section>
+
+        <section id="sources" class="card">
+          <div class="kicker">02 / third-party sources</div>
+          <h2>資料來源說明</h2>
+          <p>本工具目前會引導使用者自行前往以下網站或 APP 完成排盤，再將排盤結果整理成可供 AI 使用的格式。
+             這些第三方網站與 APP 提供了完整的排盤入口與基礎資料整理服務，
+             讓使用者可以先自行取得命盤內容。命盤整理小幫手是在此基礎上，
+             協助把使用者自己取得的資料整理成更適合 AI 閱讀與提問的格式。
+          </p>
+          <div class="grid-2">
+            <div class="mini"><strong><a class="source-link" href="https://astrodoor.cc/horoscope.jsp" target="_blank" rel="noopener noreferrer">占星之門</a></strong>西洋占星排盤。</div>
+            <div class="mini"><strong><a class="source-link" href="https://zydx.top/" target="_blank" rel="noopener noreferrer">周易大學堂</a></strong>八字排盤。</div>
+            <div class="mini"><strong><a class="source-link" href="https://humandesign.com.hk/" target="_blank" rel="noopener noreferrer">人類圖報告書</a></strong>人類圖排盤。</div>
+            <div class="mini"><strong><a class="source-link" href="https://apps.apple.com/tw/app/%E6%96%87%E5%A2%A8%E5%A4%A9%E6%A9%9F-%E5%B0%88%E6%A5%AD%E7%89%88/id1193514811" target="_blank" rel="noopener noreferrer">文墨天機</a></strong>紫微斗數排盤。</div>
+          </div>
+          <div class="notice">
+            ToolFrameLab 不隸屬於上述網站或 APP，也未代表其提供官方服務。本工具僅協助將使用者自己取得的排盤結果，整理成較適合提供給 AI 使用的格式。
+          </div>
+          <div class="notice">
+            AI 分析僅作為整理、提問與自我參考用途，不能取代專業諮詢、正式解讀或重大決策判斷。
+            若需要完整排盤報告、課程、命理諮詢或專業解讀，請以各第三方網站或 APP 提供的官方服務，或其他你信任的專業命理諮詢為準。
+          </div>
+        </section>
+
+        <section id="features" class="card">
+          <div class="kicker">03 / features</div>
+          <h2>功能概覽</h2>
+          <div class="grid-2">
+            <div class="mini"><strong>收集網站類資料</strong>西洋占星、八字、人類圖排盤完成後，透過 Safari 分享交給捷徑整理。</div>
+            <div class="mini"><strong>儲存紫微斗數</strong>從文墨天機 APP 複製結構化文字命盤，再回到捷徑儲存。</div>
+            <div class="mini"><strong>查看整理狀態</strong>確認四種資料目前是「已整理」或「無」。</div>
+            <div class="mini"><strong>整合 AI Prompt</strong>把已整理的命盤資料合併成可貼到 AI 的 prompt。</div>
+            <div class="mini"><strong>清除已整理資料</strong>使用完畢後，可刪除本機暫存的整理檔案。</div>
+            <div class="mini"><strong>查看使用說明</strong>需要完整教學時，可回到本頁查看流程。</div>
+          </div>
+        </section>
+        <section id="guide" class="card">
+          <div class="notice">
+            <strong>首次使用提醒：</strong>
+            第一次使用時，iOS 可能會要求你開啟捷徑權限。
+            若看到「無法執行此捷徑」的提示，請到「設定 → App → 捷徑 → 進階」開啟「允許執行工序指令」。
+            這是因為本工具需要在 Safari 頁面上執行 JavaScript，才能讀取你目前看到的排盤內容。
+          </div>
+          <div class="kicker">04 / guide</div>
+          <h2>完整使用流程</h2>
+          <ol class="flow">
+            <li>開啟「命盤整理小幫手」。</li>
+            <li>選擇要整理的來源：西洋占星、八字、人類圖或紫微斗數。</li>
+            <li>網站類資料完成排盤後，在 Safari 點「分享」並選擇「命盤整理小幫手」。</li>
+            <li>確認排盤資料正確後，按「好」讓捷徑整理並儲存資料。</li>
+            <li>紫微斗數需先在文墨天機 APP 複製結構化文字命盤，再回捷徑儲存。</li>
+            <li>使用「查看整理狀態」確認資料是否完成。</li>
+            <li>選擇「整合 AI Prompt」，產生可貼到 AI 的內容。</li>
+            <li>使用完畢後，可選擇「清除已整理的資料」。</li>
+          </ol>
+
+          <h3>核心操作截圖</h3>
+          <p>這裡只保留主要流程畫面。各第三方網站 / APP 的詳細排盤方式，請依其官方頁面操作。</p>
+          <div class="shot-grid">
+            <figure class="shot-card phone">
+              <figcaption><strong>0. 首次使用：開啟捷徑權限</strong><span>若 iOS 顯示安全性限制，請到「設定 → App → 捷徑 → 進階」開啟「允許執行工序指令」。沒有遇到提示可以略過。</span>
+              </figcaption>
+              <img src="../../assets/img/astrology-prompt/0_permission.webp" alt="開啟捷徑進階權限">
+            </figure>
+            <figure class="shot-card natural">
+              <figcaption><strong>1. 開啟捷徑</strong><span>點擊「命盤整理小幫手」開始。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/1_tool.webp" alt="捷徑入口" loading="lazy">
+            </figure>
+            <figure class="shot-card phone">
+              <figcaption><strong>2. 選擇功能</strong><span>選擇資料來源、查看狀態、整合 Prompt 或清除資料。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/2_menu.webp" alt="功能選單" loading="lazy">
+            </figure>
+            <figure class="shot-card phone">
+              <figcaption>
+                <strong>3-1. 開啟分享選單</strong>
+                <span>在 Safari 點選分享入口，開啟分享選單。</span>
+              </figcaption>
+              <img src="../../assets/img/astrology-prompt/3_share.webp" alt="Safari 分享選單">
+            </figure>
+
+            <figure class="shot-card phone">
+              <figcaption>
+                <strong>3-2. 選擇命盤整理小幫手</strong>
+                <span>在分享清單中選擇「命盤整理小幫手」。</span>
+              </figcaption>
+              <img src="../../assets/img/astrology-prompt/3_share_plus.webp" alt="選擇命盤整理小幫手">
+            </figure>
+            <figure class="shot-card phone">
+              <figcaption><strong>4. 確認後儲存</strong><span>確認排盤資料正確後，捷徑會整理並儲存資料。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/4_save.webp" alt="確認排盤資料" loading="lazy">
+            </figure>
+            <figure class="shot-card wide">
+              <figcaption><strong>5. 紫微斗數 APP</strong><span>在文墨天機複製結構化文字命盤，再回捷徑儲存。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/5_ziwei.webp" alt="紫微斗數複製結構化文字命盤" loading="lazy">
+            </figure>
+            <figure class="shot-card wide">
+              <figcaption><strong>6. 查看整理狀態</strong><span>確認四種資料是否已整理完成。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/6_progress.webp" alt="查看整理狀態" loading="lazy">
+            </figure>
+            <figure class="shot-card wide">
+              <figcaption><strong>7. 整合 AI Prompt</strong><span>產生可貼到 AI 的整理內容。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/7_combine.webp" alt="整合 Prompt 完成" loading="lazy">
+            </figure>
+            <figure class="shot-card wide">
+              <figcaption><strong>8. 貼到 AI</strong><span>將整理好的 Prompt 貼到 ChatGPT、Gemini、Claude 或其他 AI 工具。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/8_ai_chat.webp" alt="貼到 AI" loading="lazy">
+            </figure>
+            <figure class="shot-card phone">
+              <figcaption><strong>9. 清除資料</strong><span>使用完畢後，可清除 ChartCollector 暫存資料夾中的整理資料。iOS 可能會再次詢問是否允許刪除。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/9_delete.webp" alt="刪除資料確認" loading="lazy">
+            </figure>
+            <figure class="shot-card phone">
+              <figcaption><strong>10. 清除後狀態</strong><span>清除後可確認四種資料皆顯示為「無」。</span></figcaption>
+              <img src="../../assets/img/astrology-prompt/10_after_delete.webp" alt="清除後狀態" loading="lazy">
+            </figure>
+          </div>
+        </section>
+
+        <section id="ai" class="card">
+          <div class="kicker">05 / use with AI</div>
+          <h2>整合 Prompt 並貼到 AI</h2>
+          <p>
+            四種資料收集完成後，選擇「整合 AI Prompt」。捷徑會產生完整 prompt，你可以貼到 ChatGPT、Gemini、Claude 或其他 AI 工具中使用。
+          </p>
+          <div class="notice">
+            使用提醒：AI 分析適合用於整理、提問與自我參考，不能取代專業諮詢、正式解讀或重大決策判斷。
+          </div>
+        </section>
+
+        <section id="privacy" class="card">
+          <div class="kicker">06 / privacy</div>
+          <h2>隱私與資料清除</h2>
+          <p>
+            命盤資料可能包含出生時間、出生地等個人資料。基於隱私考量，我希望這類資料盡量留在使用者自己手上。
+          </p>
+          <p>
+            因此，命盤整理小幫手採用 iOS 捷徑方式運作，主要在你的裝置上整理資料。整理後的檔案也會保存在你自己的 iCloud Drive / Shortcuts 資料夾中。
+          </p>
+          <p>
+            ToolFrameLab 不主動接收、保存或建立你的命盤資料。
+          </p>
+          <div class="notice">
+            你的命盤資料，應該由你自己保管。
+          </div>
+          <p>
+            捷徑會在儲存前移除姓名、出生時間、出生地等個人資訊；但不同網站或 APP 的資料格式不同，仍建議使用者自行確認內容。
+          </p>
+          <p>
+            使用完畢後，建議透過「清除已整理的資料」刪除暫存檔案。
+          </p>
+          <div class="warning">
+            本工具不會主動上傳資料到 ToolFrameLab。但你使用第三方網站、APP 或 AI 平台時，仍需自行確認其服務條款與隱私政策。
+          </div>
+        </section>
+
+        <section id="faq" class="card">
+          <div class="kicker">07 / FAQ</div>
+          <h2>常見問題</h2>
+          <details open><summary>這個工具會幫我算命嗎？</summary><p>不會。它主要是整理你自己取得的排盤結果，並產生可供 AI 使用的 prompt。</p></details>
+          <details><summary>這個工具適合怎麼用？</summary><p>它適合用來整理排盤結果，產生較容易提供給 AI 使用的 prompt。後續可以用於自我理解、提問、整理資料或延伸討論。</p></details>
+          <details><summary>它會替我做人生決策嗎？</summary><p>不會。這個工具只協助整理資料；重大財務、感情、職涯、健康或法律決策，仍建議回到現實狀況、個人判斷與專業建議。</p></details>
+          <details><summary>如果我需要正式解讀或專業諮詢怎麼辦？</summary><p>本工具只負責整理資料，不提供專業命理諮詢。若需要完整排盤報告、課程、命理諮詢或專業解讀，請以第三方網站 / APP 提供的官方服務，或其他你信任的專業命理諮詢為準。</p></details>
+          <details><summary>資料會被 ToolFrameLab 看到嗎？</summary><p>不會主動傳資料給 ToolFrameLab。資料主要在你的裝置上整理與暫存。</p></details>
+          <details><summary>一定要會用 iOS 捷徑嗎？</summary><p>不需要很熟，但需要能安裝並執行捷徑，並依照畫面提示操作。</p></details>
+          <details><summary>為什麼用 iOS 捷徑，而不是做成網頁工具？</summary><p>因為命盤資料本身包含較高隱私性。使用 iOS 捷徑可以讓資料主要留在使用者自己的裝置與 iCloud Drive 裡，不需要先送到 ToolFrameLab 伺服器處理。</p></details>
+          <details><summary>Android 可以用嗎？</summary><p>目前主要是 iOS 捷徑版本，Android 暫時不支援。</p></details>
+          <details> <summary>為什麼第一次使用會要求開啟捷徑權限？</summary><p>因為本工具會透過 iOS 捷徑的「在網頁上執行 JavaScript」功能，讀取你目前在 Safari 頁面上看到的排盤內容，並整理成文字資料。若 iOS 顯示安全性限制，請到「設定 → App → 捷徑 → 進階」開啟「允許執行工序指令」。</p></details>
+        </section>
+
+        <section class="card">
+          <div class="kicker">feedback</div>
+          <h2>有想法可以告訴我</h2>
+          <p>如果你有使用上的想法、問題，或想告訴我哪裡有幫助到你，歡迎透過表單留下回饋。</p>
+          <div class="cta" style="margin-top:18px;">
+            <a class="btn primary" href="https://forms.gle/zZFhcqLGqPrZYMeG7"  target="_blank">提供回饋</a>
+            <a class="btn secondary" href="../../index.html">回首頁</a>
+          </div>
+        </section>
+      </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong style="display:block;color:#121417;margin-bottom:6px;">ToolFrameLab</strong>
+        <div>Small Tools, Prompts, and Personal Experiments.</div>
+      </div>
+      <div class="links">
+        <a href="../../index.html">Home</a>
+        <a href="#sources">Sources</a>
+        <a href="#privacy">Privacy</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
